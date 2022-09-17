@@ -1,0 +1,157 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be 
+\usepackage{fullpage}
+\usepackage[margin=1cm]{geometry}
+% To reduce the height of the top margin uncomment: 
+\addtolength{\voffset}{0cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{2pt}{2pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Maximillian Steinbach}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Nationality:} & British / German\\
+\textsc{Place of Birth:} & Hereford, UK \\
+\textsc{email:} & \href{maxsteinbachlloyd@outlook.com}{maxsteinbachlloyd@outlook.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{16.5cm}}
+\emph{Feb 2019} & \textbf{Software Developer} \\
+\textsc{Present} & \emph{Albourne Partners, Nicosia, Cyprus}\\ 
+& \footnotesize{Working predominantly in Java, I implement various financial models and build user interfaces (both web and pdf). In this role I have significantly improved my understanding of industrial software development. I am confident with OOP principles and how/when to apply them. As well as Java, I use SQL daily, and have also spent significant time maintaining and extending my company's C code.} \\
+& \footnotesize{For web development, we work with Apache Tapestry. Web pages and their components are built in Java and an html templating language.} \\
+& \footnotesize{As a specific example, for more complex and resource-intensive financial calculations, we have a C implementation that runs against the database to create cached data structures. We also have an equivalent Java implementation of the same calculations. We then test the code by running the two implementations against every instance in the database to confirm that they produce the same result, as well as running unit tests and other forms of integration tests. We can  be very confident in the results we produce.} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Aug 2017} & \textbf{Patent Attorney Assistant} \\
+\textsc{Sep 2018} & \emph{Boult Wade Tennant, Reading, UK }\\
+& \footnotesize{My role was to read technical documents and write letters to argue for the validity of patent applications. The patent applications were primarily software related but also pertained to mechanical engineering. In particular, applications often concerned cryptographic algorithms and obfuscation. During this role, I significantly improved my written communication.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Sep 2015} &  \textbf{Software Developer} \\
+\textsc{Jul 2017} & \emph{Orbium Business and IT Consulting, London, UK }\\
+& \footnotesize{ This role involved the implementation and customisation of the Avaloq Banking System, mostly with Barclays bank. This required coding in PL/SQL as well as the proprietary Avaloq script. The role required me to work closely with the users to understand the business processes and decide how to implement them in the system. A significant challenge was ensuring the Avaloq Banking System interacted with all of the other systems at Barclays. The software I worked with was highly bespoke, even the programming language and version control systems were built specifically for that application. As such, I chose to leave when I was sure I was no longer learning skills that would be useful outside that specific role.} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Summer} &  \textbf{Director of Nature and Outdoor Living} \\
+\textsc{2014} & \emph{Camp Becket, Massachusetts, USA }\\
+& \footnotesize{This was an incredible experience and it has left me confident in my ability to learn quickly, work long hours, and adapt to difficult situations.} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+& \footnotesize{During my teenage years and at university, I had a range of part-time and summer jobs, including sales assistant, farm work, gardening and pub work. These experiences have taught me to work with different people in a professional environment from a young age. } \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{16cm}}
+\textsc{Jun 2015} & \textbf{2:1 Master of Physics and Bachelor of Science}\\
+\textsc{} & \emph{The University of Warwick, UK} \\
+\textsc{} & Thesis: ``Foray into N-body simulations of varied mass planetary systems'' \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jun 2011} & \textbf{Lady Hawkins’ School \& Sixth Form} \\
+\textsc{} & \footnotesize{A level: AAA in Mathematics, Physics, and Chemistry.} \\
+\textsc{} & \footnotesize{Ten GCSEs, with As and A*s in Maths, English, French and Double Awards Science.} \\
+\textsc{} & \footnotesize{During school, I received various awards, mostly for maths and science, and I was made head boy in my last year.} \\
+%\multicolumn{2}{c}{} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rp{15cm}}
+Professional/Everyday : & Java, SQL, Git, Postgres, Oracle, C, Bash, Linux, Ubuntu, Apache Tapestry, HTML\\
+Personal/Educational : & Python, Go, Mathematica\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Skills, Hobbies \& Interests}
+
+\begin{tabular}{p{3cm}p{15cm}}
+\textsc{Languages:} & First Language English, A2 (three years) conversational Turkish\\
+
+\textsc{Programming:} & As I did not study computer science at university, I have spent considerable time reading textbooks, building toy projects, and watching lectures to try and gain a holistic understanding of the field. I have always liked solving puzzles and, as such, I often like to solve maths puzzles, while making use of new programming languages or concepts in the process. \\
+
+\textsc{Sports:} & I like to stay fit and healthy. I particularly enjoy playing rugby and hiking. At university, I played American football and served as the vice president of my team during my final year.\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
